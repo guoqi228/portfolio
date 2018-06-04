@@ -1,0 +1,55 @@
+.whole{
+  background-color: white;
+}
+#welcome{
+  font-family: monospace;
+  text-align: center;
+  font-weight: bold;
+}
+
+#date{
+  font-family: monospace;
+  text-align: center;
+}
+
+#column{
+  width:100%;
+  height:auto;
+  table-layout: fixed;
+  text-align: center;
+  font-family: monospace;
+  font-size: 1.6em;
+  font-weight: bold;
+  background-color: rgba(66, 241, 244,0.5);
+}
+
+.header{
+  background-image:url("boston.jpg");
+  background-repeat:no-repeat;
+  background-position:center;
+  height: 150px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.left{
+  width: 25%;
+  float: left;
+  border: 10px;
+  padding: 20px;
+  font-size: 1.2em;
+  font-family: monospace;
+  text-align: left;
+  image-orientation: center;
+  background-color: rgba(66, 244, 244, 0.5);
+}
+
+.right{
+  width: 68%;
+  float: right;
+  border: 10px;
+  padding: 20px;
+  font-size: 1.2em;
+  font-family: monospace;
+  background-color: rgba(66, 244, 244, 0.5);
+}
