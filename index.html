@@ -1,80 +1,92 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
   <head>
     <meta charset="utf-8">
-    <title>Clay's Home</title>
-    <link rel="stylesheet" href="master.css">
+    <title>Clay's Data Science Home</title>
   </head>
-  <body class="whole">
-    <div class="header">
-      <h1 id="welcome">Welcome to Clay's homepage!</h3>
-      <p id="date">last update 06/04/2018</p>
-      <table id="column">
-        <tr>
-          <td>Home</td>
-          <td>|</td>
-          <td>Project</td>
-          <td>|</td>
-          <td>Data Science</td>
-          <td>|</td>
-          <td>Machine Learning</td>
-          <td>|</td>
-          <td>Useful Resource</td>
-          <td>|</td>
-          <td>About</td>
-        </tr>
-      </table>
+
+  <body class="wholebody">
+
+    <header class="header">
+      <h1>Clay's Data Science Home</h1>
+        <p id="date">last update 06/04/2018</p>
+    </header>
+
+    <div class="nav">
+      <nav>
+        <ul>
+          <li class="navli"><a href="#home">Home</a></li>
+          <li class="navli"><a href="#projects">Projects</a></li>
+          <li class="navli"><a href="#machinelearning">Machine Learning</a></li>
+          <li class="navli"><a href="#bigdata">Big Data</a></li>
+          <li class="navli"><a href="#about">About</a></li>
+        </ul>
+      </nav>
     </div>
 
+    <div>
     <div class="left">
-      <img src="yaoming.png" alt="avatar.png" width="200" height="180">
-      <p> Clay Guo <br> Great Boston Area <br> Full Stack Data Scientist <br>
-      <a href="https://www.linkedin.com/">Linkdin</a> <br>
-      <a href="https://github.com/">Github</a></p>
 
-      <p> Skills:
-      <ul>
-        <li>Exploratory Data Analysis</li>
-        <li>Data Visualization</li>
-        <li>Machine Learning</li>
-        <li>Big Data</li>
-      </ul> </p>
+      <div class="intro">
+        <img src="media/img/yaoming.png" alt="imagenotfound" width="200" height="180">
+        <h4>Clay Guo</h4>
+          <p>Great Boston Area <br> Full Stack Data Scientist <br>
+            <a href="https://www.linkedin.com/">Linkdin</a> <br>
+              <a href="https://github.com/">Github</a>
+            </p>
+      </div>
 
-      <p> Tools:
-      <ul>
-        <li>Numpy, Pandas, Matplotlib, Seaborn</li>
-        <li>Scikit-Learn, TensorFlow</li>
-        <li>Hadoop, MapReduce</li>
-      </ul> </p>
+      <div class="skills">
+        <h5>Skills:</h5>
+        <ul id='skills'>
+          <li>Exploratory Data Analysis</li>
+          <li>Data Visualization</li>
+          <li>Big Data</li>
+          <li>Machine Learning</li>
+        </ul>
+      </div>
 
-      <form class="from">
-        Leave feedback: <br>
-        <textarea cols="50" rows="5">
-        </textarea>
-        <button type="submit" name="button">Submit</button>
-      </form>
+      <div class="tools">
+        <h5>Tools:</h5>
+        <ul id="tools">
+          <li>Numpy, Pandas, Matplotlib</li>
+          <li>Scikit-Learn, TensorFlow</li>
+          <li>Hadoop, MapReduce</li>
+        </ul>
+      </div>
 
-    </div>
-
-    <div class="right">
-      <p id="blog01">
-        <h3>Data Visualization using Matplotlib and Seaborn</h3>
-        <h5>02/16/2015</h5>
-        <img src="python.png" alt="imagenotfound" width="600" height="180"> <br> <br>
-        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
-      </p>
-
-      <p id='blog02'>
-        <h3>Linear Regession using Scikit-Learn</h3>
-        <h5>09/16/2017</h5>
-        <img src="scikitlearn.png" alt="imagenotfound" width="600" height="180"> <br>
-        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
-      </p>
-
+      <div class="form">
+        <form class="form">
+          Leave a message: <br>
+            <textarea cols="50" rows="5">
+            </textarea>
+            <button type="submit" name="button">Submit</button>
+          </form>
       </div>
 
     </div>
 
+    <div class="right">
+      <h2>Lastest Posts</h2>
+      <div class="blog">
+        <h3>Data Visualization using Matplotlib and Seaborn</h3>
+        <h5>02/16/2015</h5>
+        <img src="media/img/python.png" alt="imagenotfound" width="600" height="180"> <br> <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+      <div class='blog'>
+        <h3>Linear Regession using Scikit-Learn</h3>
+        <h5>09/16/2017</h5>
+        <img src="media/img/scikitlearn.png" alt="imagenotfound" width="600" height="180"> <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+      </div>
+
+    </div>
+    <link rel="stylesheet" href="css/master.css">
 
   </body>
 </html>
