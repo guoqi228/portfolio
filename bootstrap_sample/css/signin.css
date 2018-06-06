@@ -10,8 +10,8 @@
 }
 
 footer{
-  background-color: #212529;
-  color: white;
+
+  color: black;
   padding: 25px;
 }
 
@@ -61,18 +61,6 @@ label{
   font-weight: bold;
 }
 
-.a-divider{
-content: "";
-width: 100%;
-background-color: transparent;
-display: block;
-height: 1px;
-border-top: 1px solid #e7e7e7;
-position: absolute;
-top: 50%;
-margin-top: -1px;
-z-index: 1;
-}
 
 h5 {
    width: 100%;
@@ -90,8 +78,29 @@ h5 span {
 .bi{
   background-color: white;
   color: black;
+  width: 100%;
+  text-align: center;
 }
 
 f1{
   float: left;
+}
+
+.helpbutton{
+  color: black;
+  background: white;
+}
+
+.f1{
+  width:100%;
+}
+
+li{
+  float:left;
+  color: blue;
+  padding-left: 30px;
+}
+
+ul{
+  list-style-type: none;
 }

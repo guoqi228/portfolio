@@ -2,14 +2,13 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Link</title>
+    <title>Form</title>
   </head>
   <body>
 
-    <div class="row">
+    <div class="row"> <!--start of nav row-->
       <div class="col-md-12">
-        <div class="header">
-
+        <header>
           <nav class="navbar navbar-expand-md bg-dark navbar-dark">
   <!-- Brand -->
   <a class="navbar-brand" href="#">Navbar</a>
@@ -37,31 +36,63 @@
     </ul>
   </div>
 </nav>
-        </div>
+        </header>
       </div>
-    </div> <!--end of header row-->
+    </div> <!-- end of nav row-->
 
-    <main>
-      <container>
+    <main> <!--start of main-->
+      <container> <!--start of container-->
         <div class="row extra-margin">
-          <div class="col-md-12 center">
-            <div>
-              <h1 class="p_pad">Title Text</h1>
-              <p class="p_pad">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
+          <div class="col-md-4 offset-md-4">
+
+<!-- Material form register -->
+<form class="extra-margin">
+    <p class="h4 text-center mb-4">Sign up</p>
+
+    <!-- Material input text -->
+    <div class="md-form">
+        <i class="fa fa-user prefix grey-text"></i>
+        <input type="text" id="materialFormRegisterNameEx" class="form-control">
+        <label for="materialFormRegisterNameEx">Your name</label>
+    </div>
+
+    <!-- Material input email -->
+    <div class="md-form">
+        <i class="fa fa-envelope prefix grey-text"></i>
+        <input type="email" id="materialFormRegisterEmailEx" class="form-control">
+        <label for="materialFormRegisterEmailEx">Your email</label>
+    </div>
+
+    <!-- Material input email -->
+    <div class="md-form">
+        <i class="fa fa-exclamation-triangle prefix grey-text"></i>
+        <input type="email" id="materialFormRegisterConfirmEx" class="form-control">
+        <label for="materialFormRegisterConfirmEx">Confirm your email</label>
+    </div>
+
+    <!-- Material input password -->
+    <div class="md-form">
+        <i class="fa fa-lock prefix grey-text"></i>
+        <input type="password" id="materialFormRegisterPasswordEx" class="form-control">
+        <label for="materialFormRegisterPasswordEx">Your password</label>
+    </div>
+
+    <div class="text-center mt-4">
+        <button class="btn btn-primary" type="submit">Register</button>
+    </div>
+</form>
+<!-- Material form register -->
+
+
+
+            <!--end of form-->
+
           </div>
         </div>
+      </container> <!--end of container-->
+    </main> <!-- end of main-->
 
-        <div class="row extra-margin">
-          <div class="col-md-12 center">
-            <div>
-              <h1 class="p_pad">Title Text</h1>
-              <p class="p_pad">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-          </div>
-        </div>
-      </container>
-    </main>
+
 
     <footer>
       <div class="row">
@@ -77,8 +108,6 @@
       </div>
     </footer>
 
-
-
     <!-- Bootstrap 4.1.0 CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     <!-- JQuery CDN -->
@@ -88,7 +117,6 @@
     <!-- Bootstrap JS CDN -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="../css/main.css">
-
 
   </body>
 </html>
