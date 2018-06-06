@@ -1,0 +1,31 @@
+body{
+  overflow-x: hidden;
+}
+.center{
+  display:block;
+  margin:20px auto;
+}
+
+.extra-margin{
+  margin:50px 0px;
+}
+
+footer{
+  background-color: #212529;
+  color: white;
+  padding: 25px;
+}
+
+.pic-text{
+  padding-top: 35px;
+}
+
+figcaption{
+  text-align: center;
+}
+
+.p_pad{
+  display: block;
+  padding-left: 5%;
+  padding-right:5%;
+}
