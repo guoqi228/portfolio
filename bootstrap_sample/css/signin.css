@@ -104,3 +104,12 @@ li{
 ul{
   list-style-type: none;
 }
+.card{
+  margin:25px;
+  padding:10px;
+}
+
+.card-subtitle{
+  font-style: italic;
+  padding-bottom: 15px;
+}

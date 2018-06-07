@@ -95,3 +95,14 @@ h5 span {
 f1{
   float: left;
 }
+.card{
+  margin:25px;
+  padding:10px;
+  box-shadow: 0px 0px 5px 0px;
+  color:grey;
+}
+
+.card-subtitle{
+  font-style: italic;
+  padding-bottom: 15px;
+}
