@@ -1,92 +1,141 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
   <head>
     <meta charset="utf-8">
-    <title>Clay's Data Science Home</title>
+    <title>Clay's Home</title>
   </head>
+  <body>
 
-  <body class="wholebody">
+    <div class="row"> <!--start of main first row-->
+      <div class="col-md-12"> <!--start of 1st col in main first row-->
+        <header>  <!--start of header-->
+          <nav class="navbar navbar-inverse navbar-fixed-top no-margin-bottom"> <!--start of nav-->
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Data Science Portfolio | Clay Guo</a>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Projects</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Resource</a></li>
+                </ul>
+            </div>
+          </div>
+        </nav> <!--end of nav-->
+      </header> <!-- end of header-->
+    </div> <!--end of 1st col in first main row-->
+  </div> <!--end of first main row-->
 
-    <header class="header">
-      <h1>Clay's Data Science Home</h1>
-        <p id="date">last update 06/04/2018</p>
-    </header>
-
-    <div class="nav">
-      <nav>
-        <ul>
-          <li class="navli"><a href="#home">Home</a></li>
-          <li class="navli"><a href="#projects">Projects</a></li>
-          <li class="navli"><a href="#machinelearning">Machine Learning</a></li>
-          <li class="navli"><a href="#bigdata">Big Data</a></li>
-          <li class="navli"><a href="#about">About</a></li>
-        </ul>
-      </nav>
+  <div class="row"> <!-- start of image row-->
+    <div class="col-md-12">
+        <img class="img-responsive" src="media/img/boston_cut.jpg" alt="imagenotfound">
     </div>
+  </div> <!-- end of image row-->
 
-    <div>
-    <div class="left">
+<main> <!--start of main-->
+  <div class="container">
+    <div class="row">
 
-      <div class="intro">
-        <img src="media/img/yaoming.png" alt="imagenotfound" width="200" height="180">
-        <h4>Clay Guo</h4>
-          <p>Great Boston Area <br> Full Stack Data Scientist <br>
-            <a href="https://www.linkedin.com/">Linkdin</a> <br>
+      <div class="col-md-4 card"> <!-- start of col-md-4-->
+        <div class="row add-top-margin">
+          <img class="center" src="http://placehold.it/200x200" alt="imagenotfound">
+        </div>
+
+        <div class="row center">
+          <p class="center">
+            <h3>Clay Guo</h3>
+              Great Boston Area <br>
+              Data Analyst/Data Scientist <br>
+              <a href="https://www.linkedin.com/">Linkdin</a> <br>
               <a href="https://github.com/">Github</a>
-            </p>
-      </div>
+          </p>
+        </div>
 
-      <div class="skills">
-        <h5>Skills:</h5>
-        <ul id='skills'>
-          <li>Exploratory Data Analysis</li>
-          <li>Data Visualization</li>
-          <li>Big Data</li>
-          <li>Machine Learning</li>
-        </ul>
-      </div>
+        <div class="row center">
+          <p class="center">Skills: <br>
+            Exploratory Data Analysis <br>
+            Data Visualization <br>
+            Big Data <br>
+            Machine Learning <br>
+          </p>
+        </div>
 
-      <div class="tools">
-        <h5>Tools:</h5>
-        <ul id="tools">
-          <li>Numpy, Pandas, Matplotlib</li>
-          <li>Scikit-Learn, TensorFlow</li>
-          <li>Hadoop, MapReduce</li>
-        </ul>
-      </div>
+        <div class="row center">
+          <p class="center">Tools: <br>
+            Numpy, Pandas, Matplotlib <br>
+            Scikit-Learn, TensorFlow <br>
+            Hadoop, MapReduce <br>
+          </p>
+        </div>
 
-      <div class="form">
-        <form class="form">
-          Leave a message: <br>
-            <textarea cols="50" rows="5">
-            </textarea>
-            <button type="submit" name="button">Submit</button>
-          </form>
-      </div>
+        <div class="row center">
+            <form class="form center">
+              Leave a message: <br>
+                <textarea cols="50" rows="10">
+                </textarea> <br>
+                <button type="submit" name="button">Submit</button>
+              </form>
+        </div>
 
+      </div> <!--end of col-md-4 -->
+
+      <div class="col-md-7 extra-margin"> <!-- start of col-md-8 -->
+
+        <div class="row extra-padding card">
+          <h2>Lastest Posts</h2>
+        </div>
+
+        <div class="row extra-padding card">
+          <h3>Data Visualization using Matplotlib and Seaborn</h3>
+          <h5>02/16/2015</h5>
+          <img class="img-responsive" src="http://placehold.it/600x150" alt="imagenotfound"> <br> <br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+
+        <div class="row extra-padding card">
+          <h3>Linear Regession using Scikit-Learn</h3>
+          <h5>09/16/2017</h5>
+          <img class="img-responsive" src="http://placehold.it/600x150" alt="imagenotfound" width="600" height="180"> <br> <br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+      </div> <!--end of col-md-8 -->
     </div>
+  </div>
+</main> <!--end of main -->
 
-    <div class="right">
-      <h2>Lastest Posts</h2>
-      <div class="blog">
-        <h3>Data Visualization using Matplotlib and Seaborn</h3>
-        <h5>02/16/2015</h5>
-        <img src="media/img/python.png" alt="imagenotfound" width="600" height="180"> <br> <br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-      </div>
-      <div class='blog'>
-        <h3>Linear Regession using Scikit-Learn</h3>
-        <h5>09/16/2017</h5>
-        <img src="media/img/scikitlearn.png" alt="imagenotfound" width="600" height="180"> <br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-      </div>
-      </div>
-
+<footer>
+  <div class="row">
+    <div class="col-md-4">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </div>
-    <link rel="stylesheet" href="css/master.css">
+    <div class="col-md-4">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+    <div class="col-md-4">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+  </div>
+</footer>
 
+    <!-- Bootstrap 4.1.0 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
   </body>
+
+
+
+
+
+
 </html>
